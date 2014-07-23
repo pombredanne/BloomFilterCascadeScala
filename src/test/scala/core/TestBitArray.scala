@@ -27,6 +27,7 @@ class TestBitArray extends FunSuite {
 
   test ("set with hasher") {
     val v = new BitArray(10, 0)
+    v.setUnique(true) // get unique values
     v.set("Hello", k=3)
     assert(v.get() == BitSet(3, 7, 8))
   }

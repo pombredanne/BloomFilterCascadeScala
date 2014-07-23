@@ -10,6 +10,10 @@ case class BitArray(val m:Int, seed: Int) {
   val bitSet = BitSet()
   //val hasher = Hasher(m, seed)
 
+  def setUnique(bit:Boolean = true) = {
+    Hasher.useUnique = bit
+  }
+
   def checkRange(s:Int, m:Int, i:Int) = {
     if (i >= m || i < s) throw new java.lang.IndexOutOfBoundsException(s"i($i) should less than m($m)")
   }

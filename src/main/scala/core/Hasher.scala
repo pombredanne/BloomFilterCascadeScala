@@ -3,7 +3,7 @@ package core
 import hash.Hash
 
 object Hasher {
-  val useUnique = false
+  var useUnique = false
 
   def get(key:String, m:Int, k:Int, seed:Int) = {
     if (Hasher.useUnique)
