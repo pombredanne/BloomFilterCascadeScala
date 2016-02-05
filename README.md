@@ -1,6 +1,6 @@
 # BloomFilterCascade
 
-This is an implementation of BloomFilterCascade in Scala programming language.
+This is an implementation of BloomFilterCascade in Scala programming language. This is used for understanding how Bloom Filter Cascade works as described in [The Bloomier Filter](https://www.cs.princeton.edu/~chazelle/pubs/soda-rev04.pdf) paper. 
 
 # Theory and Algorithms
 Refer to the document in doc/bfcascade.pdf
